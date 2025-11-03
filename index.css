@@ -1,0 +1,38 @@
+/* Resets all default browser margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: cormorant, serif;
+}
+
+h1 {
+    display: inline-block;
+    font-weight: 300;
+    margin-right: 32px;
+}
+
+.links {
+    display: inline-block;
+}
+
+.links li {
+    display: inline-block;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin: 0 8px;
+}
+
+.navbar {
+    margin: 32px;
+}
+
+a.active {
+    border-bottom: 1px solid black;
+}
